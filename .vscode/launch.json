@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "app_task1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app_task1 (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app_task1 (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Flutter (Edge)",
+            "program": "lib/main.dart",
+            "deviceId": "edge",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Flutter (Medium Phone API VanillaIceCream)",
+            "program": "lib/main.dart",
+            "deviceId": "emulator-5554",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
